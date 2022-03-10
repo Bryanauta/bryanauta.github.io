@@ -1,0 +1,127 @@
+#projects-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #00b0ff;
+}
+  
+#projects-container {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+  
+.projects-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.projects-top-side {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+  
+.projects-text {
+    width: 100%;
+}
+  
+.projects-bottom-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+  
+.projects {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.project {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+  
+.project-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    height: 30px;
+}
+  
+.project-one-image {
+    background-image: url('../img/BryanautaPortfolio.png');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.project-two-image {
+    background-image: url('../img/Black.png');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.project-three-image {
+    background-image: url('../img/Black.png');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.project-four-image {
+    background-image: url('../img/Black.png');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+  
+.project-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 30px;
+    margin-top: -5px;
+    padding: 1px;
+}
+  
+.project-name {
+    color: black;
+}
+  
+.project-footer img {
+    width: 20px;
+}
+
+.project-technologies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-technologies img {
+    margin-left: 10px;
+}
+  

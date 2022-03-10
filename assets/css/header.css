@@ -1,0 +1,77 @@
+header {
+    background-color: #181818;
+    display: flex;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+}
+  
+nav {
+    width: 1440px;
+    height: 100px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+  
+nav ul li {
+    font-size: 24px;
+    padding-left: 40px;
+}
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+  
+nav ul li a:hover {
+    color: #00b0ff;
+    transition: 0.2s ease-out;
+}
+  
+.logo {
+    display: flex;
+}
+  
+.logo-image {
+    width: 80px;
+    height: 80px;
+}
+  
+.logo-image:hover {
+    transition: 0.2s ease-out;
+}
+
+.contact-button {
+    background-color: #00b0ff;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.contact-button:hover {
+    background-color: #FFFFFF;
+    color: #00b0ff;
+    box-shadow: 0px 0px 25px 5px #00b0ff;
+    transition: 0.2s ease-out;
+}
+
+#hamburguer-menu {
+    display: none;
+}
+
+#hamburguer-menu img {
+    width: 0px;
+    height: 0px;
+}
+
+#hamburguer-menu {
+    display: none;
+}

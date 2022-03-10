@@ -10,35 +10,48 @@
       href="./assets//svg/bryanauta-white.svg"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/imports.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/about-me.css" />
+    <link rel="stylesheet" href="./assets/css/skills.css" />
+    <link rel="stylesheet" href="./assets/css/projects.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/media-queries.css">
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="nav">
         <div class="logo">
-          <a href="#"
-            ><img
+          <a href="#">
+            <img
               src="./assets//svg/bryanauta-white.svg"
-              alt="avatar"
-              class="avatar"
-          /></a>
+              alt="logo"
+              class="logo-image"/>
+          </a>
         </div>
 
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about-me">About me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="list-item"><a href="#home">Home</a></li>
+          <li class="list-item"><a href="#about-me">About me</a></li>
+          <li class="list-item"><a href="#skills">Skills</a></li>
+          <li class="list-item"><a href="#projects">Projects</a></li>
+          <li class="list-item"><a href="#contact" class="contact-button">Contact</a></li>
         </ul>
       </nav>
+
+      <div id="hamburguer-menu">
+        <img src="./assets/svg/Hamburguer-menu.svg" alt="Hamburguer menu" id="menu-icon">
+      </div>
     </header>
 
     <main>
       <section id="home-section">
         <div id="home-container">
           <div class="home-content">
-            <div class="left-side">
+            <div class="home-left-side">
               <div class="home-text">
                 <div class="signature">Bryan da Silva Nunes</div>
                 <h1>Web Developer</h1>
@@ -54,7 +67,7 @@
               </div>
             </div>
 
-            <div class="right-side">
+            <div class="home-right-side">
               <div class="home-image"> 
                 <img src="./assets/img/Astronaut.png" alt="Astronaut">
               </div>
@@ -66,7 +79,13 @@
       <section id="about-section">
         <div id="about-container">
           <div class="about-content">
-            <div class="left-side">
+            <div class="about-left-side">
+              <div class="about-image"> 
+                <div class="avatar"></div>
+              </div>
+            </div>
+
+            <div class="about-right-side">
               <div class="about-text">
                 <h1>About Me</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi ipsum quaerat dolor cum, deleniti iste a ullam? Exercitationem, aliquid fugit? Placeat autem voluptatum itaque ipsam saepe deserunt tenetur sit.</p>
@@ -74,37 +93,157 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi ipsum quaerat dolor cum, deleniti iste a ullam? Exercitationem, aliquid fugit? Placeat autem voluptatum itaque ipsam saepe deserunt tenetur sit.</p>
               </div>
             </div>
-
-            <div class="right-side">
-              <div class="about-image"> 
-                <div class="avatar"></div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
       
       <section id="skills-section">
-        
+        <div id="skills-container">
+          <div class="skills-content">
+            <div class="skills-top-side">
+              <div class="skills-text">
+                <h1>Skills</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi ipsum quaerat dolor cum, deleniti iste a ullam? Exercitationem, aliquid fugit? Placeat autem voluptatum itaque ipsam saepe deserunt tenetur sit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi ipsum quaerat dolor cum, deleniti iste a ullam? Exercitationem, aliquid fugit? Placeat autem voluptatum itaque ipsam saepe deserunt tenetur sit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi ipsum quaerat dolor cum, deleniti iste a ullam? Exercitationem, aliquid fugit? Placeat autem voluptatum itaque ipsam saepe deserunt tenetur sit.</p>
+              </div>
+            </div>
+
+            <div class="skills-bottom-side">
+              <div class="languages"> 
+                <div class="language">
+                  <img src="./assets/svg/JavaScript.svg" alt="Java">
+                </div>
+
+                <div class="language">
+                  <img src="./assets/svg/HTML.svg" alt="Java">
+                </div>
+
+                <div class="language">
+                  <img src="./assets/svg/CSS.svg" alt="Java">
+                </div>
+
+                <div class="language">
+                  <img src="./assets/svg/Java.svg" alt="Java">
+                </div>
+
+                <div class="language">
+                  <img src="./assets/svg/Java.svg" alt="Java">
+                </div>
+
+                <div class="language">
+                  <img src="./assets/svg/Java.svg" alt="Java">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="projects-section">
-        
+        <div id="projects-container">
+          <div class="projects-content">
+            <div class="projects-top-side">
+              <div class="projects-text">
+                <h1>Projects</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi ipsum quaerat dolor cum, deleniti iste a ullam? Exercitationem, aliquid fugit? Placeat autem voluptatum itaque ipsam saepe deserunt tenetur sit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi ipsum quaerat dolor cum, deleniti iste a ullam? Exercitationem, aliquid fugit? Placeat autem voluptatum itaque ipsam saepe deserunt tenetur sit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi ipsum quaerat dolor cum, deleniti iste a ullam? Exercitationem, aliquid fugit? Placeat autem voluptatum itaque ipsam saepe deserunt tenetur sit.</p>
+              </div>
+            </div>
+
+            <div class="projects-bottom-side">
+              <div class="projects"> 
+                <div class="project">
+                  <div class="project-header">Project 1</div>
+                  <div class="project-one-image"></div>
+                  <div class="project-footer">
+                    <span class="project-name">
+                      Bryanauta's Portfolio
+                    </span>
+                    <span class="project-technologies">
+                      <img src="./assets/svg/JavaScript-black.svg" alt="">
+                      <img src="./assets/svg/HTML-black.svg" alt="">
+                      <img src="./assets/svg/CSS-black.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div class="project-header">Project 2</div>
+                  <div class="project-two-image"></div>
+                  <div class="project-footer">
+                    <span class="project-name">
+                      Project 2
+                    </span>
+                    <span class="project-technologies">
+                      <img src="./assets/svg/Java-black.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div class="project-header">Project 3</div>
+                  <div class="project-three-image"></div>
+                  <div class="project-footer">
+                    <span class="project-name">
+                      Project 3
+                    </span>
+                    <span class="project-technologies">
+                      <img src="./assets/svg/Java-black.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div class="project-header">Project 4</div>
+                  <div class="project-four-image"></div>
+                  <div class="project-footer">
+                    <span class="project-name">
+                      Project 4
+                    </span>
+                    <span class="project-technologies">
+                      <img src="./assets/svg/Java-black.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+          </div>
+        </div>
       </section>
 
       <section id="contact-section">
-        
+        <div id="contact-container">
+          <div class="contact-content">
+            <div class="contact-top-side">
+              <div class="contact-text">
+                <h2>Contact</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi ipsum quaerat dolor cum, deleniti iste a ullam? Exercitationem, aliquid fugit? Placeat autem voluptatum itaque ipsam saepe deserunt tenetur sit.</p>
+              </div>
+            </div>
+
+            <div class="contact-bottom-side">
+              <div class="form">
+                <form action="" method="post">
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer>
       <div class="logo">
-        <a href="https://beacons.ai/bryanauta"
-          ><img
+        <a href="https://beacons.ai/bryanauta">
+          <img
             src="./assets//svg/bryanauta-original.svg"
             alt="avatar"
-            class="logo-footer"
-        /></a>
+            class="logo-footer"/>
+        </a>
+      </div>
+
+      <script src="./script.js"></script>
     </footer>
   </body>
 </html>

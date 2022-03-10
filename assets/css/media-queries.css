@@ -1,0 +1,92 @@
+@media (max-width: 600px) {
+  #home-content {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .home-left-side {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .home-right-side {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px
+  }
+
+  .about-left-side {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .about-right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .projects {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul li {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  #hamburguer-menu {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 45px;
+  }
+
+  #hamburguer-menu img {
+    width: 50px;
+    height: 50px;
+  }
+
+  #nav.mobile-menu {
+    height: 100vh;
+    display: block;
+  }
+
+  #nav.mobile-menu .logo {
+    margin-top: 100px;
+    display: block;
+  }
+
+  #nav.mobile-menu ul {
+    display: block;
+  }
+
+  #nav.mobile-menu ul li {
+    padding-left: 0px;
+    margin-top: 20px;
+    overflow: visible;
+    text-indent: 0;
+  }
+}
+  
