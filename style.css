@@ -31,8 +31,9 @@ header {
 }
 
 nav {
-  width: 1200px;
+  width: 1440px;
   height: 100px;
+  padding: 20px;
   margin: 0 auto;
   display: flex;
   text-align: center;
@@ -75,7 +76,7 @@ nav ul li a:hover {
 
 /* ==================== Home ==================== */
 #home-section {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -84,23 +85,25 @@ nav ul li a:hover {
 }
 
 #home-container {
-  width: 1200px;
+  width: 1440px;
   margin: 0 auto;
   display: flex;
 }
 
 .home-content {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 60%;
 }
 
 .home-text {
   width: 100%;
-  padding: 20px;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
 }
 
 .signature {
@@ -110,34 +113,82 @@ nav ul li a:hover {
 }
 
 .social-media img {
-  padding: 5px;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 40%;
 }
 
 .home-image {
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column wrap;
+ 
 }
 
 .home-image img {
-  display: flex;
   width: 100%;
-  height: 100%;
 }
 /* ==================== About me ==================== */
 #about-section {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
+  align-items: center;
+  text-align: center;
   background-color: #00b0ff;
+}
+
+#about-container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 60%;
+}
+
+.about-text {
+  width: 100%;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 40%;
+}
+
+.about-image {
+  
+}
+
+.about-image .avatar {
+  background-image: url("./assets/img/Bryan.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
 }
 
 /* ==================== Skills ==================== */
 #skills-section {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   background-color: #141414;
@@ -145,7 +196,7 @@ nav ul li a:hover {
 
 /* ==================== Projects ==================== */
 #projects-section {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   background-color: #00b0ff;
@@ -153,7 +204,7 @@ nav ul li a:hover {
 
 /* ==================== Contact ==================== */
 #contact-section {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   background-color: #141414;
@@ -162,7 +213,7 @@ nav ul li a:hover {
 /* ==================== Footer ==================== */
 footer {
   background-color: #181818;
-  width: 100vw;
+  width: 100%;
   height: 100px;
   display: flex;
   align-items: center;
@@ -175,15 +226,29 @@ footer {
 }
 
 /* ==================== Media Queries ==================== */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   header {
     background-color: red;
   }
 
-  #home-container {
-    width: 1200px;
+  #home-content {
+    width: 1440px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px
   }
 }
