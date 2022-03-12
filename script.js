@@ -7,14 +7,22 @@ hamburguerMenu.addEventListener('click', function() {
     nav.classList.toggle('mobile-menu');
     menuIcon.classList.toggle('mobile-menu');
     
-    if(menuIcon.classList.contains('mobile-menu')) {
+    if(nav.classList.contains('mobile-menu')) {
         menuIcon.src = "./assets/svg/Hamburguer-menu-close.svg";
     } else {
         menuIcon.src = "./assets/svg/Hamburguer-menu.svg";
     }
 })
 
-listItem.addEventListener('click', function(){
-    window.alert("list item");
+listItem.forEach(element => {
+    element.addEventListener('click', function() {
+        nav.classList.toggle('mobile-menu');
+        
+        if(nav.classList.contains('mobile-menu')) {
+            menuIcon.src = "./assets/svg/Hamburguer-menu-close.svg";
+        } else {
+            menuIcon.src = "./assets/svg/Hamburguer-menu.svg";
+        }
+    })
 })
 

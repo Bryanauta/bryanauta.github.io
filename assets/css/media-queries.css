@@ -59,7 +59,7 @@
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 15px;
+    top: 25px;
     right: 45px;
   }
 
@@ -87,6 +87,10 @@
     margin-top: 20px;
     overflow: visible;
     text-indent: 0;
+  }
+
+  form {
+    width: 100%;
   }
 }
   
