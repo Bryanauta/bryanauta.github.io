@@ -1,4 +1,4 @@
-#contact-section {
+.contact-section {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -7,7 +7,7 @@
     background-color: #141414;
 }
   
-#contact-container {
+.contact-container {
     width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -79,4 +79,5 @@ input {
     border: none;
     padding: 10px;
     margin-top: 10px;
+    cursor: pointer;
 }

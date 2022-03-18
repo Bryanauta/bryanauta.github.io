@@ -1,4 +1,4 @@
-#skills-section {
+.skills-section {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -7,7 +7,7 @@
     background-color: #141414;
 }
   
-#skills-container {
+.skills-container {
     width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -50,13 +50,13 @@
     justify-content: center;
     background-color: gray;
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 10px;
     cursor: pointer;
 }
   
 .language img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }

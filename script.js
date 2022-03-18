@@ -26,3 +26,8 @@ listItem.forEach(element => {
     })
 })
 
+ScrollReveal().reveal('.home-section', { delay: 500 });
+ScrollReveal().reveal('.about-me-section', { delay: 500 });
+ScrollReveal().reveal('.skills-section', { delay: 500 });
+ScrollReveal().reveal('.projects-section', { delay: 500 });
+ScrollReveal().reveal('.contact-section', { delay: 500 });

@@ -1,4 +1,4 @@
-#projects-section {
+.projects-section {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -7,7 +7,7 @@
     background-color: #00b0ff;
 }
   
-#projects-container {
+.projects-container {
     width: 1440px;
     margin: 0 auto;
     display: flex;
