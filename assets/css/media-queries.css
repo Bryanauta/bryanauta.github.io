@@ -46,6 +46,14 @@
     justify-content: center;
     align-items: center;
   }
+  
+  header {
+    width: 100vw;
+  }
+
+  nav {
+    width: 100%;
+  }
 
   nav ul li {
     text-indent: 100%;

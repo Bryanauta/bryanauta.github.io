@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #141414;
+    background-color: #00406C;
 }
   
 .skills-container {
@@ -48,14 +48,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    border: 2px solid white;
     border-radius: 10px;
     width: 200px;
     height: 200px;
     margin: 10px;
     cursor: pointer;
 }
-  
+
+.language:hover {
+    border: 2px solid #00b0ff;
+    background-color: #00b0ff;
+}
+
 .language img {
     width: 70px;
     height: 70px;

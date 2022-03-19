@@ -1,5 +1,5 @@
 header {
-    background-color: #181818;
+    background-color: #003355;
     display: flex;
     position: fixed;
     margin: 0 auto;
@@ -24,7 +24,7 @@ nav ul {
 }
   
 nav ul li {
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 40px;
 }
   
