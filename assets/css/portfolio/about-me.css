@@ -43,7 +43,7 @@
 }
 
 .about-image .avatar {
-    background: url('../img/Bryan.jpg');
+    background: url('../../img/Bryan.jpg');
     background-size: cover;
     background-position: center center;
     width: 250px;

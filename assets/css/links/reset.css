@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+  
+html {
+    scroll-behavior: smooth;
+    background-color: #141414;
+    overflow-x: hidden;
+}
+  
+main {
+    overflow-x: hidden;
+}

@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    margin-top: 50px;
+}
+ 
+.header-container {
+    width: 600px;
+    margin: 0 auto;
+}
+ 
+.header-content {
+    text-align: center;    
+}

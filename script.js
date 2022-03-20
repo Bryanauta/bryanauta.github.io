@@ -1,7 +1,7 @@
 var hamburguerMenu = document.getElementById("hamburguer-menu");
 var nav = document.getElementById("nav");
 var menuIcon = document.getElementById("menu-icon");
-var listItem = document.querySelectorAll(".list-item");
+var listItems = document.querySelectorAll(".list-item");
 
 hamburguerMenu.addEventListener('click', function() {
     nav.classList.toggle('mobile-menu');
@@ -14,7 +14,7 @@ hamburguerMenu.addEventListener('click', function() {
     }
 })
 
-listItem.forEach(element => {
+listItems.forEach(element => {
     element.addEventListener('click', function() {
         nav.classList.toggle('mobile-menu');
         
@@ -39,9 +39,3 @@ ScrollReveal().reveal(".slide-right", {
     distance: "1000px",
     easing: "ease-in-out"
 });
-
-// ScrollReveal().reveal('.home-section', { delay: 500 });
-// ScrollReveal().reveal('.about-me-section', { delay: 500 });
-// ScrollReveal().reveal('.skills-section', { delay: 500 });
-// ScrollReveal().reveal('.projects-section', { delay: 500 });
-// ScrollReveal().reveal('.contact-section', { delay: 500 });
