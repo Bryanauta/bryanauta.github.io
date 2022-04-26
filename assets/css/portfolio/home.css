@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #00406C;
+    background-color: #000415;
 }
   
 .home-container {
@@ -27,6 +27,7 @@
   
 .home-text {
     width: 100%;
+    text-align: left;
 }
   
 .signature {

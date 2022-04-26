@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #003A61;
+    background-color: #000415;
 }
   
 .about-container {
@@ -27,7 +27,8 @@
 }
   
 .about-text {
-    width: 100%;
+    width: 80%;
+    text-align: left;
 }
   
 .about-right-side {

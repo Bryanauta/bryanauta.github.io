@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #00406C;
+    background-color:  #000415;
 }
   
 .contact-container {
@@ -63,6 +63,10 @@ input {
     margin-top: 10px;
 }
 
+.input-email {
+    margin-top: 10px;
+}
+
 .text-area {
     resize: none;
     outline: none;
@@ -75,17 +79,16 @@ input {
 }
 
 .submit-email-button {
-    background-color: #00b0ff;
-    border-radius: 5px;
+    background: #00b0ff;
     border: none;
-    padding: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
     margin-top: 10px;
     cursor: pointer;
 }
 
 .submit-email-button:hover {
-    background-color: white;
+    background: white;
     color: #00b0ff;
-    box-shadow: 0px 0px 15px 2px #00b0ff;
     transition: 0.2s ease-out;
 }

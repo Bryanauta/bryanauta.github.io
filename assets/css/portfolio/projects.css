@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #003A61;
+    background-color:  #000415;
 }
   
 .projects-container {
@@ -41,6 +41,7 @@
     height: 100%;
     display: grid;
     padding: 20px;
+    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     flex-wrap: wrap;
@@ -49,20 +50,9 @@
 }
   
 .project {
-    padding: 10px;
     width: 100%;
     height: 100%;
     cursor: pointer;
-}
-  
-.project-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 25px 25px 0 0;
-    color: black;
-    height: 30px;
 }
   
 .project-one-image {
@@ -118,11 +108,9 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    border-radius: 0 0 25px 25px;
     color: black;
     width: 100%;
     height: 30px;
-    margin-top: -5px;
     padding: 1px;
 }
   
