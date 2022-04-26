@@ -5,14 +5,31 @@
     box-sizing: border-box;
     color: white;
 }
-  
+
 html {
     scroll-behavior: smooth;
-    background-color:  #000415;
+    background-color: #000415;
     overflow-x: hidden;
 }
-  
+
 main {
     padding-top: 100px;
     overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000415;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00b0ff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00a5f2;
 }

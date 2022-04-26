@@ -78,6 +78,7 @@
   #nav.mobile-menu {
     height: 100vh;
     display: block;
+    background-color: rgba(0, 4, 21, 0.8);
   }
 
   #nav.mobile-menu .logo {
